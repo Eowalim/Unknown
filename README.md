@@ -1,2 +1,2 @@
 # Unknown
-Bot discord pour le discord Falconia
+Bot discord
