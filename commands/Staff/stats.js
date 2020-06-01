@@ -65,4 +65,6 @@ module.exports.run = (client, message, args) => {
       if (err) throw err;
     });
   }
+
+  msg.delete();
 };

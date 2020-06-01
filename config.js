@@ -1,19 +1,16 @@
-exports.TOKEN = "";
+exports.TOKEN = "NzEyODMyNTYwMzI5MjYxMTE3.XtPI-Q.HlZd8LY3Br0CADpyzQZ7VYKuArY";
 exports.PREFIX = "/";
 exports.SERVER = "706147778954264598";
 
 //Role
 exports.STAFF = "710864673746059293";
 exports.BOT = "711208814271266897";
+exports.OUF_MALADE = "711310409096757269";
 
 //Channels
 exports.LOGS = "unknown-logs";
 exports.SALON_BOT = "711657761263452210";
 exports.SALON_STATS = "717084106030317588";
-exports.SALON_RULE = "716948387190145086";
-
-//Message
-exports.RULE = "717080775878508654";
 
 exports.ROLE_COLOR = [
   "Light Coral",

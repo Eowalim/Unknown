@@ -3,6 +3,7 @@ const { LOGS } = require("../../config.js");
 
 module.exports = (client, msg) => {
   if (msg.author === null) return;
+  if (msg.author.bot) return;
   if (msg.type === undefined) return;
 
   const embed = new MessageEmbed()

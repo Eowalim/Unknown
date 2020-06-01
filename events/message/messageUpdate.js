@@ -2,8 +2,6 @@ const { MessageEmbed } = require("discord.js");
 const { LOGS } = require("../../config.js");
 
 module.exports = (client, newMessage, oldMessage) => {
-  if (msg.author === null) return;
-  if (msg.type === undefined) return;
   if (newMessage.content === oldMessage.content) return;
 
   const embed = new MessageEmbed()
