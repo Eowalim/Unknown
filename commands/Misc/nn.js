@@ -18,6 +18,16 @@ module.exports.run = (client, message, args) => {
 
   fillNN(userMention.username);
 
+  function removeDups(tab) {
+    let unique = {};
+    tab.forEach(function (i) {
+      if (!unique[i]) {
+        unique[i] = true;
+      }
+    });
+    return Object.keys(unique);
+  }
+
   function fillNN(user) {
     const tabF = [];
     const fs = require("fs");
@@ -38,7 +48,7 @@ module.exports.run = (client, message, args) => {
         for (let i = 0; i < tab.length; i++) {
           tabF.push(`- ${tab[i]}\n`);
         }
-        sendEmbed(tabF);
+        sendEmbed(removeDups(tabF));
       }
     });
   }

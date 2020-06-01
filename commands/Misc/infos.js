@@ -15,25 +15,6 @@ module.exports.help = {
 
 module.exports.run = (client, message, args) => {
   message.delete();
-  var fs = require("fs");
-  var obj = JSON.parse(
-    fs.readFileSync(
-      "C:\\Users\\eowal\\Desktop\\Développement\\BOT Discord\\Unknown\\test.json",
-      "utf8"
-    )
-  );
-  console.log(obj.raidMode);
-
-  let raideOn = { raideMode: true };
-  let data = JSON.stringify(raideOn, null, 2);
-  fs.writeFile(
-    "C:\\Users\\eowal\\Desktop\\Développement\\BOT Discord\\Unknown\\test.json",
-    data,
-    (err) => {
-      if (err) throw err;
-      console.log("Data written to file");
-    }
-  );
 
   const embed = new MessageEmbed()
     .setColor("#f0932b")

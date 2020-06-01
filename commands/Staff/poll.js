@@ -2,7 +2,7 @@ const { MessageEmbed } = require("discord.js");
 const { STAFF } = require("../../config.js");
 
 module.exports.help = {
-  name: "pool",
+  name: "poll",
   description: "Permet de créer un sondage",
   category: "staff",
   onlyChannel: false,

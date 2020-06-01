@@ -1,4 +1,4 @@
-exports.TOKEN = "NzEwNTYyNTEyNzQ3MzY0NDE0.Xr3nnQ.GwYqLUOTZcJGbTNqawRqI2FzCzA";
+exports.TOKEN = "";
 exports.PREFIX = "/";
 exports.SERVER = "706147778954264598";
 
@@ -9,6 +9,11 @@ exports.BOT = "711208814271266897";
 //Channels
 exports.LOGS = "unknown-logs";
 exports.SALON_BOT = "711657761263452210";
+exports.SALON_STATS = "717084106030317588";
+exports.SALON_RULE = "716948387190145086";
+
+//Message
+exports.RULE = "717080775878508654";
 
 exports.ROLE_COLOR = [
   "Light Coral",

@@ -1,9 +1,10 @@
-const { SERVER, LOGS } = require("../../config");
+const { MessageEmbed } = require("discord.js");
+const { SERVER, LOGS, SALON_STATS } = require("../../config");
 
 module.exports = (client) => {
   console.log(`Logged in as ${client.user.tag}!`);
+  const fs = require("fs");
   checkChannelLogs();
-
   function checkChannelLogs() {
     var exist = false;
     var server = null;

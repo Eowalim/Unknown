@@ -8,7 +8,7 @@ module.exports.help = {
   onlyChannel: true,
   channel: SALON_BOT,
   args: true,
-  usage: "nameOfColor",
+  usage: "nameColor",
   usePerm: false,
   permission: "",
 };

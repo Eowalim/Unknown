@@ -22,7 +22,7 @@ module.exports.run = (client, message, args) => {
     .addFields(
       {
         name: ":no_entry: Commandes pour le staff",
-        value: `\`${PREFIX}raidmode\`: Permet d'activer ou désactiver le mode raid (empêche l'arrivée de nouveau membre).\n\`${PREFIX}pool question !rep1 !rep2 ...(max 10)\`: Permet de créer un sondage.`,
+        value: `\`${PREFIX}raidmode\`: Permet d'activer ou désactiver le mode raid (empêche l'arrivée de nouveau membre).\n\`${PREFIX}poll question !rep1 !rep2 ...(max 10)\`: Permet de créer un sondage.\n\`${PREFIX}stats\`: Donne les statistiques du jour.`,
         inline: false,
       },
       {
@@ -41,7 +41,7 @@ module.exports.run = (client, message, args) => {
         inline: false,
       }
     )
-    .setFooter(`Bot by Eowalim v1.0`);
+    .setFooter(`Bot by Eowalim v1.0 | En cas de bugs contactez Eowalim`);
 
   message.channel.send(embed);
   message.delete();
