@@ -10,7 +10,6 @@ exports.OUF_MALADE = "711310409096757269";
 //Channels
 exports.LOGS = "unknown-logs";
 exports.SALON_BOT = "711657761263452210";
-exports.SALON_STATS = "717084106030317588";
 
 exports.ROLE_COLOR = [
   "Light Coral",
